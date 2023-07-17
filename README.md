@@ -17,14 +17,14 @@ The news data will be sourced from the website: [Mars News](https://website-name
 
 We'll explore the Mars climate using Python, Splinter, Beautiful Soup, and Pandas visualizations. Highlights include:
 
-- In this phase, we'll scrape Mars weather data [Mars weather](https://static.bc-edx.com/data/web/mars_facts/temperature.html) and transform it into a convenient data frame. Get ready for an efficient data transformation process
+- First, we'll scrape Mars weather data [Mars weather](https://static.bc-edx.com/data/web/mars_facts/temperature.html) and transform it into a convenient data frame.
 
-- With analyzing the data frame turns out that Mars, like Earth, has approximately 12 months in a Martian year.
+- After analyzing the data frame turns out that Mars, like Earth, has approximately 12 months in a Martian year.
 
 - There is 1867 Martian (not Earth) days' worth of data in the scraped dataset.
   
 
-- Coldest months on Mars: 
+- Monthly weather on Mars: 
 ![line1](https://github.com/MahsaBakhtiari/data_scraping_challenge/blob/main/Resources/bar-plot1.png)
 *On Mars, on average, the months of the Martian calendar equivalent to the 8th and 9th months are the coldest.*
 
