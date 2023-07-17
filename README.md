@@ -9,7 +9,7 @@ This project comprises two main components: the first part involves news scrapin
 
 ### Part 1: Scraping Mars News: Unveiling the Mysteries
 
-In this part, we'll gather the Mars news titles and summaries with Python, Splinter, and Beautiful Soup, saving them in a user-friendly  JSON file for easy access. 
+In this part, we'll gather the Mars news titles and summaries with Python, Splinter, and Beautiful Soup, saving them in a user-friendly  [JSON file](https://github.com/MahsaBakhtiari/data_scraping_challenge/blob/main/Resources/news.json) for easy access. 
 The news data will be sourced from the website: [Mars News](https://website-name.com)
 
 
@@ -17,20 +17,30 @@ The news data will be sourced from the website: [Mars News](https://website-name
 
 We'll explore the Mars climate using Python, Splinter, Beautiful Soup, and Pandas visualizations. Highlights include:
 
-- Scraping data from [Mars weather](https://static.bc-edx.com/data/web/mars_facts/temperature.html)
+- In this phase, we'll scrape Mars weather data [Mars weather](https://static.bc-edx.com/data/web/mars_facts/temperature.html) and transform it into a convenient data frame. Get ready for an efficient data transformation process
 
+- With analyzing the data frame turns out that Mars, like Earth, has approximately 12 months in a Martian year.
 
-- Precipitation: Plotting rainfall trends over the past 12 months.
+- There is 1867 Martian (not Earth) days' worth of data in the scraped dataset.
+  
 
-![line](https://github.com/MahsaBakhtiari/sqlalchemy-challenge/blob/main/SurfsUp/plot_pic/rain_barplot.png)
-*The most recent observed year's precipitation lacks discernible patterns.*
+- Coldest months on Mars: 
+![line1](https://github.com/MahsaBakhtiari/data_scraping_challenge/blob/main/Resources/bar-plot1.png)
+*On Mars, on average, the months of the Martian calendar equivalent to the 8th and 9th months are the coldest.*
 
-- Super Station: Identifying the most active weather station and its temperature extremes.
-- Temperature Time Machine: Visualizing the temperature observations at the most active station over the last 12 months.
+- Coldest and hottest months at Curiosity's location.:
+![line2](https://github.com/MahsaBakhtiari/data_scraping_challenge/blob/main/Resources/bar-plot2.png)
+*On Mars, the 8th month of the Martian calendar is typically the coldest, while the 3rd month tends to be the hottest on average.*
 
-![hist](https://github.com/MahsaBakhtiari/sqlalchemy-challenge/blob/main/SurfsUp/plot_pic/temp_hist.png)
-*The temperature predominantly hovers around 75 degrees throughout the year.*
+- Average Martian monthly pressure:
+![line3](https://github.com/MahsaBakhtiari/data_scraping_challenge/blob/main/Resources/bar-plot3.png)
+*Average atmospheric pressure is lowest in the sixth month and highest in the ninth.*
 
+- Estimating Earth days in a Martian year using peak-to-peak daily minimum temperatures:
+![line3](https://github.com/MahsaBakhtiari/data_scraping_challenge/blob/main/Resources/line-plot.png)
+*Mars' year is approximately 675 days based on the plot's peak-to-peak distance of around 1425-750, which is 675 days.*
+
+- Exporting the scraped Mars weather dataframe to a [CSV file](https://github.com/MahsaBakhtiari/data_scraping_challenge/blob/main/Resources/data.csv).
 
 ## Contributing
 
