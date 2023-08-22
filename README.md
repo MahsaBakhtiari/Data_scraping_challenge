@@ -2,7 +2,6 @@
 # Exploring Mars: Scraping and Analyzing News and Weather Data
 This repository showcases a project that leverages Beautiful Soup, Splinter, and Pandas for data scraping, analysis, and visualization of Mars news and weather data.
 
-
 ## Project Overview
 
 This project comprises two main components: the first part involves news scraping, while the second part focuses on collecting Mars weather data as a data frame and performing analysis on it.
