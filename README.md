@@ -1,7 +1,7 @@
 ![line](https://media.cnn.com/api/v1/images/stellar/prod/230614113409-curiosity-marker-band-valley.jpg?c=original&q=w_1280,c_fill)
 # Exploring Mars: Scraping and Analyzing News and Weather Data
 This repository showcases a project that leverages Beautiful Soup, Splinter, and Pandas for data scraping, analysis, and visualization of Mars news and weather data.
-1111111111
+111111111
 
 ## Project Overview
 
